@@ -1,7 +1,7 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36518.9
+# Visual Studio Version 18
+VisualStudioVersion = 18.11.12315.225 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZbW.ProgrammingFoundationShort.Lessons", "ZbW.ProgrammingFoundationShort.Lessons\ZbW.ProgrammingFoundationShort.Lessons.csproj", "{FE1FDFCB-9117-4CDE-9B9A-6FC8F9C81F4D}"
 EndProject
@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution.Items", "_Solutio
 		.editorconfig = .editorconfig
 		Directory.Build.props = Directory.Build.props
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZbW.ProgrammingFoundationShort.MeineLoesungen", "ZbW.ProgrammingFoundationShort.MeineLoesungen\ZbW.ProgrammingFoundationShort.MeineLoesungen.csproj", "{2421B43A-1823-4A33-9EF0-3FA90DBCA94A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,8 +29,15 @@ Global
 		{024BBDF1-3613-4E50-AA69-E2B697815B45}.Debug|x64.Build.0 = Debug|x64
 		{024BBDF1-3613-4E50-AA69-E2B697815B45}.Release|x64.ActiveCfg = Release|x64
 		{024BBDF1-3613-4E50-AA69-E2B697815B45}.Release|x64.Build.0 = Release|x64
+		{2421B43A-1823-4A33-9EF0-3FA90DBCA94A}.Debug|x64.ActiveCfg = Debug|x64
+		{2421B43A-1823-4A33-9EF0-3FA90DBCA94A}.Debug|x64.Build.0 = Debug|x64
+		{2421B43A-1823-4A33-9EF0-3FA90DBCA94A}.Release|x64.ActiveCfg = Release|x64
+		{2421B43A-1823-4A33-9EF0-3FA90DBCA94A}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E942A98-3B5D-40E4-A6B0-0C39A39F60CD}
 	EndGlobalSection
 EndGlobal
