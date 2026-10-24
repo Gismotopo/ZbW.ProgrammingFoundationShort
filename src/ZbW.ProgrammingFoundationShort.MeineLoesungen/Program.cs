@@ -10,6 +10,7 @@ internal class Program
     //---Module01---
     //Application.Run(new ZbW.ProgrammingFoundationShort.MeineLoesungen.Module01.Aufgabe1_Bmi.BmiForm());
     //Application.Run(new ZbW.ProgrammingFoundationShort.MeineLoesungen.Module01.Aufgabe2_Waehrungsrechner.WaehrungsrechnerForm());
+    Application.Run(new ZbW.ProgrammingFoundationShort.MeineLoesungen.Module01.Aufgabe3_ZahlenAnalyse.ZahlenAnalyseForm());
 
   }
 }

@@ -13,6 +13,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Module01\Aufgabe2_Waehrungsrechner\WaehrungsrechnerForm.cs" />
+    <Compile Update="Module01\Aufgabe3_ZahlenAnalyse\ZahlenAnalyseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 
 </Project>
