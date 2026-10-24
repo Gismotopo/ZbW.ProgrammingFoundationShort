@@ -12,6 +12,7 @@
     <Compile Update="Module01\Aufgabe1_Bmi\BmiForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Module01\Aufgabe2_Waehrungsrechner\WaehrungsrechnerForm.cs" />
   </ItemGroup>
 
 </Project>

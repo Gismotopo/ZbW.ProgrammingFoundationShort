@@ -7,6 +7,9 @@ internal class Program
   {
     ApplicationConfiguration.Initialize();
 
-    Application.Run(new ZbW.ProgrammingFoundationShort.MeineLoesungen.Module01.Aufgabe1_Bmi.BmiForm());
+    //---Module01---
+    //Application.Run(new ZbW.ProgrammingFoundationShort.MeineLoesungen.Module01.Aufgabe1_Bmi.BmiForm());
+    //Application.Run(new ZbW.ProgrammingFoundationShort.MeineLoesungen.Module01.Aufgabe2_Waehrungsrechner.WaehrungsrechnerForm());
+
   }
 }
