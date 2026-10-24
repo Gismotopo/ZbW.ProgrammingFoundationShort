@@ -25,25 +25,43 @@ public static class Taschenrechner
   public static void Start()
   {
     // TODO 1: Erste Zahl einlesen und prüfen
-    //         Console.Write("Erste Zahl: ");
-    //         if (!double.TryParse(Console.ReadLine() ?? "", out double zahl1))
-    //         {
-    //           Console.WriteLine("Ungültige Zahl.");
-    //           return;
-    //         }
+    Console.Write("Erste Zahl: ");
+    if (!double.TryParse(Console.ReadLine() ?? "", out double zahl1))
+    {
+      Console.WriteLine("Ungültige Zahl.");
+      return;
+    }
 
     // TODO 2: Zweite Zahl einlesen (gleiche Technik wie TODO 1)
+    Console.Write("Zweite Zahl: ");
+    if (!double.TryParse(Console.ReadLine() ?? "", out double zahl2))
+    {
+      Console.WriteLine("Ungültige Zahl.");
+      return;
+    }
+
 
     // TODO 3: Operation einlesen (+, -, *, /)
-    //         string operation = Console.ReadLine() ?? "";
+    Console.WriteLine($"Operator ( + , -, *, / )");
+    string operation = (Console.ReadLine() ?? "").Trim();
 
     // TODO 4: Berechnen mit if / else if
-    //         if (operation == "+") { result = zahl1 + zahl2; }
-    //         else if (operation == "-") { ... }
+    double result;
+
+    if (operation == "+") { result = zahl1 + zahl2; }
+    else if (operation == "-") { result = zahl1 - zahl2; }
+    else if (operation == "*") { result = zahl1 * zahl2; }
+    else if (operation == "/")
+    {
+      if (zahl2 == 0) { Console.WriteLine("Durch 0 Teilen nicht möglich"); return; }
+      else { result = zahl1 / zahl2;}
+    }
+    else { Console.WriteLine($"Operator {operation} unbekannt"); return; }
     //         ...
     //         Achtung: Bei "/" zuerst prüfen, ob zahl2 == 0 ist!
     //         Unbekannte Operation → Meldung ausgeben
 
     // TODO 5: Ergebnis ausgeben: $"Ergebnis: {result:F2}"
+    Console.WriteLine($"Ergebniss: {result:F2}");
   }
 }
