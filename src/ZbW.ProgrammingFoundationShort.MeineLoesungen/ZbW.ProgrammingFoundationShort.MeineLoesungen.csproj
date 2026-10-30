@@ -16,6 +16,12 @@
     <Compile Update="Module01\Aufgabe3_ZahlenAnalyse\ZahlenAnalyseForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Module02\Aufgabe1_Ampelsteuerung\AmpelsteuerungForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module02\Aufgabe2_Notenrechner\NotenrechnerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 
 </Project>
