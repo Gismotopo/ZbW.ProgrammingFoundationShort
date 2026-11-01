@@ -22,6 +22,12 @@
     <Compile Update="Module02\Aufgabe2_Notenrechner\NotenrechnerForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Module02\Aufgabe3_Versicherungspraemie\VersicherungspraemieForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module02\Aufgabe4_TaschenrechnerVerlauf\TaschenrechnerVerlaufForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 
 </Project>

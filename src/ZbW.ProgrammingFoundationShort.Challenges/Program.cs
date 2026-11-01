@@ -16,13 +16,13 @@ internal static class Program
     //Application.Run(new ZbW.ProgrammingFoundationShort.Challenges.Module01.Aufgabe1_Bmi.BmiForm());
     //Application.Run(new ZbW.ProgrammingFoundationShort.Challenges.Module01.Aufgabe2_Waehrungsrechner.WaehrungsrechnerForm());
     //Application.Run(new ZbW.ProgrammingFoundationShort.Challenges.Module01.Aufgabe3_ZahlenAnalyse.ZahlenAnalyseForm());
-    // Application.Run(new ZbW.ProgrammingFoundationShort.Challenges.Module01.Aufgabe4_Einheitenrechner.EinheitenrechnerForm());
+    //Application.Run(new ZbW.ProgrammingFoundationShort.Challenges.Module01.Aufgabe4_Einheitenrechner.EinheitenrechnerForm());
 
     // ---- Modul 02 ----
-    // Application.Run(new ZbW.ProgrammingFoundationShort.Challenges.Module02.Aufgabe1_Ampelsteuerung.AmpelsteuerungForm());
-     Application.Run(new ZbW.ProgrammingFoundationShort.Challenges.Module02.Aufgabe2_Notenrechner.NotenrechnerForm());
-    // Application.Run(new ZbW.ProgrammingFoundationShort.Challenges.Module02.Aufgabe3_Versicherungspraemie.VersicherungspraemieForm());
-    // Application.Run(new ZbW.ProgrammingFoundationShort.Challenges.Module02.Aufgabe4_TaschenrechnerVerlauf.TaschenrechnerVerlaufForm());
+    //Application.Run(new ZbW.ProgrammingFoundationShort.Challenges.Module02.Aufgabe1_Ampelsteuerung.AmpelsteuerungForm());
+    //Application.Run(new ZbW.ProgrammingFoundationShort.Challenges.Module02.Aufgabe2_Notenrechner.NotenrechnerForm());
+    //Application.Run(new ZbW.ProgrammingFoundationShort.Challenges.Module02.Aufgabe3_Versicherungspraemie.VersicherungspraemieForm());
+    //Application.Run(new ZbW.ProgrammingFoundationShort.Challenges.Module02.Aufgabe4_TaschenrechnerVerlauf.TaschenrechnerVerlaufForm());
 
     // ---- Modul 03 ----
     // Application.Run(new ZbW.ProgrammingFoundationShort.Challenges.Module03.Aufgabe1_Multiplikationstabelle.MultiplikationstabelleForm());
