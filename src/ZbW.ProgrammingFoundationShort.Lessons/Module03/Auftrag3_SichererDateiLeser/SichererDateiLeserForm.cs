@@ -30,13 +30,38 @@ public partial class SichererDateiLeserForm : Form
     //         string[] zeilen = File.ReadAllLines(TxtPfad.Text);
     //         for-Schleife: LstZeilen.Items.Add($"{i+1}: {zeilen[i]}")
 
+    try
+    {
+      string[] zeilen = File.ReadAllLines(TxtPfad.Text);
+      for (int i = 0; i < zeilen.Length; i++)
+      {
+        LstZeilen.Items.Add($"{i + 1}: {zeilen[i]}");
+      }
+    }
+
     // TODO 3: catch (FileNotFoundException ex):
     //         MessageBox mit Datei-nicht-gefunden-Meldung
 
+    catch (FileNotFoundException ex)
+    {
+      MessageBox.Show($"Datei nicht gefunden {ex.Message}");
+    }
+    
     // TODO 4: catch (Exception ex):
     //         MessageBox mit allgemeiner Fehlermeldung
 
+    catch (Exception ex)
+    {
+      MessageBox.Show($"{ex.Message}");
+    }
+
     // TODO 5: finally (läuft immer):
     //         CmdLesen.Enabled = true;
+
+    finally
+    {
+      CmdLesen.Enabled = true;
+    }
+    
   }
 }
