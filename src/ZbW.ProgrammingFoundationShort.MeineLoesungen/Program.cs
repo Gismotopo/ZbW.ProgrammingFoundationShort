@@ -19,6 +19,9 @@ internal class Program
     //Application.Run(new ZbW.ProgrammingFoundationShort.MeineLoesungen.Module02.Aufgabe3_Versicherungspraemie.VersicherungspraemieForm());
     //Application.Run(new ZbW.ProgrammingFoundationShort.MeineLoesungen.Module02.Aufgabe4_TaschenrechnerVerlauf.TaschenrechnerVerlaufForm());
 
-    //--- Modul 03 ---
+    //---- Modul 03 ----
+    //Application.Run(new ZbW.ProgrammingFoundationShort.MeineLoesungen.Module03.Aufgabe1_Multiplikationstabelle.MultiplikationstabelleForm());
+    //Application.Run(new ZbW.ProgrammingFoundationShort.MeineLoesungen.Module03.Aufgabe2_ZahlenRatespiel.ZahlenRatespielForm());
+    //Application.Run(new ZbW.ProgrammingFoundationShort.MeineLoesungen.Module03.Aufgabe3_PasswortGenerator.PasswortGeneratorForm());    
   }
 }

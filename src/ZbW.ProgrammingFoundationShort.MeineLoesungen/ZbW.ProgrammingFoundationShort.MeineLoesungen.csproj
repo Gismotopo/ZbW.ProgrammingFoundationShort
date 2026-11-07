@@ -28,6 +28,15 @@
     <Compile Update="Module02\Aufgabe4_TaschenrechnerVerlauf\TaschenrechnerVerlaufForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Module03\Aufgabe1_Multiplikationstabelle\MultiplikationstabelleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module03\Aufgabe2_ZahlenRatespiel\ZahlenRatespielForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module03\Aufgabe3_PasswortGenerator\PasswortGeneratorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 
 </Project>
