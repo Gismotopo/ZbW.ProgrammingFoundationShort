@@ -37,6 +37,15 @@
     <Compile Update="Module03\Aufgabe3_PasswortGenerator\PasswortGeneratorForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Module04\Aufgabe1_TemperaturAuswertung\TemperaturAuswertungForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module04\Aufgabe2_Wortzaehler\WortzaehlerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module04\Aufgabe3_MatrizenRechner\MatrizenRechnerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 
 </Project>

@@ -14,7 +14,7 @@ namespace ZbW.ProgrammingFoundationShort.MeineLoesungen.utils
           {
             if (!int.TryParse(input, out int number))
             {
-              return default(T);
+              return default(T?);
             }
             return (T)(object)number;
           }
@@ -23,7 +23,7 @@ namespace ZbW.ProgrammingFoundationShort.MeineLoesungen.utils
           {
             if (!double.TryParse(input, out double number) || double.IsNaN(number))
             {
-              return default(T);
+              return default(T?);
             }
             return (T)(object)number;
           }
@@ -32,7 +32,7 @@ namespace ZbW.ProgrammingFoundationShort.MeineLoesungen.utils
           {
             if (!decimal.TryParse(input, out decimal number))
             {
-              return default(T);
+              return default(T?);
             }
             return (T)(object)number;
           }

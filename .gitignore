@@ -43,6 +43,7 @@ ScaffoldingReadMe.txt
 ~$*
 *~
 CodeCoverage/
+.unerledigteAufgaben.txt
 
 # MSBuild Binary and Structured Log
 *.binlog
